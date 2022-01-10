@@ -1,7 +1,7 @@
 # fileopsmon
 Monitor file operations in specified directories
 
-INotify 类主体 copy 自 https://github.com/chrisjbillington/inotify_simple，由于使用场景和环境限制，只能将其 copy 后并稍作修改以适配环境。
+INotify 类主体 copy 自 https://github.com/chrisjbillington/inotify_simple 。由于使用场景和环境限制，只能将其 copy 后并稍作修改以适配环境。
 
 该代码只在 Py 2.7环境下调试通过，能够按需完成工作。由于运行环境不支持 Python 3.x，所以没有调试，同时 Python 3.8的环境可以使用 asyncio 来实现多目录同时监控的调度，而不是使用多线程。
 
